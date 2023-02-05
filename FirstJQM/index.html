@@ -179,19 +179,55 @@
           <!-- =================================== -->
         <!-- content -->
         <div data-role="content" data-theme='a'>
-            Real application function code
-        </div>
-           <!-- =================================== -->
+             <div id ="title"></div>
 
-           <!-- =================================== -->
+            <h2>My favorite Udon noddles!</h2>
+            <div id ="page1">
+              <h3>Second Step: Check the Recipe!</h2>
+              <h4>Let's fid out!</h3>
+            </div>
+              <div id ="output1"> 
+              </div>
+            
+              <div id="page"></div>
+              
+              <div id ="message1"></div>
+            
+              <form name = "mainFrom" onsubmit="return false">
+            
+            <h3>First Step: Let us know who you are!</h2>
+                <div id =box>
+                <fieldset id="custInfo">
+               
+                <legend>Customer Information</legend>
+              
+               <label for="custname"> Name:</label> 
+                <input name="custname" id="custname" />
+                
+                <label for="street">Phone Number:</label>
+                <input name="phoneNumber" id="phoneNumber" />
+                
+                 <label for="email">Email:</label>
+                <input name="email" id="email" />
+                  <br>
+                
+                <input type="submit" value="Submit" onclick="formSubmitEvent()">
+                
+                </fieldset>
+                </div>
+               <br>
+            <button type="button" id="show">Show All</button>
+            <textarea rows="3" cols="60" id="output" ></textarea>
         <!-- notes footer --> 
         <div data-role="footer" data-theme='a'>
-            <h3>Copyrigtht 2023 by Nina Alaghemand</h3>
+            <h3>Copyrigtht 2023 by Ya Cai</h3>
         </div>
-        <!-- =================================== -->
+     
 
     </div>
-     <!-- ======================================================================================== -->
+    
+    <script src ="main.js"></script>
+  
     
     
 </body>
