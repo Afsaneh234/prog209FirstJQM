@@ -1,11 +1,13 @@
-
-    document.getElementById("btn").addEventListener("click",menu )
-    function menu() {
-        var p = document.createElement("p");
-        var t = document.createTextNode("Bring a large pot of lightly salted water to a boil. Cook udon in boiling water, stirring occasionally, until noodles are tender yet firm to the bite, 10 to 12 minutes. Drain. Meanwhile, combine chicken broth, soy sauce, peanut butter, ginger, honey, garlic, and chili paste in a medium saucepan. Cook and stir over medium heat until peanut butter melts and sauce is heated through. Add drained noodles to peanut butter sauce; toss to coat. Garnish with green onions and peanuts.");
-      p.appendChild(t);
-      document.body.appendChild(p);
-    }
+document.getElementById("btn").addEventListener("click",menu );
+function menu() {
+    let p = document.createElement("p");
+    p.innerHTML ="";
+    let t = document.createTextNode("Bring a large pot of lightly salted water to a boil. Cook udon in boiling water, stirring occasionally, until noodles are tender yet firm to the bite, 10 to 12 minutes. Drain. Meanwhile, combine chicken broth, soy sauce, peanut butter, ginger, honey, garlic, and chili paste in a medium saucepan. Cook and stir over medium heat until peanut butter melts and sauce is heated through. Add drained noodles to peanut butter sauce; toss to coat. Garnish with green onions and peanuts.");
+  p.appendChild(t);
+    let we =document.getElementById("page1");
+    we.innerHTML ="";
+  we.appendChild(p);
+}
 
  PersonArray = []; 
 
