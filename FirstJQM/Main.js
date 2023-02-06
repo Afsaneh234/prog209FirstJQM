@@ -1,6 +1,6 @@
 const body = document.getElementsByTagName('body')[0];
 
-body.append(page);
+body.append(page1);
 
 let choices = ["Recipe"];
 choices.forEach((choice) => {
